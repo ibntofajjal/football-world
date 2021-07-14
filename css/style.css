@@ -212,6 +212,9 @@ footer {
         margin-left: 5%;
         margin-right: 5%;
     }
+    .header {
+        height: 50vh;
+    }
     .header-content {
         grid-template-columns: repeat(2, 1fr);
         padding-top: 20%;
