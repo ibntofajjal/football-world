@@ -1,0 +1,133 @@
+/* ▓▒▒▒▒▒▒▒▒▒▒▒ GOOGLE FONT ▒▒▒▒▒▒▒▒▒▒▒▓  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ▓▒▒▒▒▒▒▒▒▒▒▒ UTILITIES CLASSES ▒▒▒▒▒▒▒▒▒▒▒▓  */
+.container {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.btn {
+    color: white;
+    font-size: 16px;
+    padding: 10px 29px;
+    background-color: #E02C6D;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+.btn:hover {
+   border-radius: 10px;
+}
+
+.fas {
+    font-size: 14px;
+    margin-left: 2px;
+}
+.btn:hover .fas {
+    transform: translateX(.25rem);
+}
+
+
+/* ▓▒▒▒▒▒▒▒▒▒▒▒ HEADER STYLE ▒▒▒▒▒▒▒▒▒▒▒▓  */
+.header {
+    height: 80vh;
+    background-color: rgb(49, 49, 175);
+}
+
+.header-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding-top: 5%;
+   
+}
+
+.header-content .banner img {
+    width: 100%;
+}
+
+.header-content .header-text h1{
+    color: white;
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+/* ▓▒▒▒▒▒▒▒▒▒▒▒ MAIN CARDS STYLE ▒▒▒▒▒▒▒▒▒▒▒▓  */
+.card-section {
+    margin-bottom: 165px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 33px;
+    margin-top: 70px;
+}
+.card {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.137);
+    padding: 15px;
+}
+.card-img img  {
+    width: 100%;
+}
+.card-text h1 {
+    font-size: 28px;
+    padding-top: 25px;
+    padding-bottom: 22px;
+}
+.card-text p {
+    font-size: 16px;
+    padding-right: 20px;
+    padding-bottom: 32px;
+    color: #6C6C6C;
+}
+
+.highlight-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-bottom: 60px;
+}
+.highlight-text h1{
+    font-size: 48px;
+    color: #0A0826
+    ;
+}
+
+.highlight-text p{
+    font-size: 16px;
+    color: #6C6C6C;
+    padding-bottom: 30px;
+}
+
+.highlight-banner {
+    justify-self: end;
+}
+
+
+/* ▓▒▒▒▒▒▒▒▒▒▒▒ MAIN BONUS STYLE ▒▒▒▒▒▒▒▒▒▒▒▓  */
+
+
+
+
+.footer-logo img{
+    width: 480px;
+}
