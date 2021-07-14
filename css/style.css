@@ -173,6 +173,9 @@ footer {
         margin-left: 5%;
         margin-right: 5%;
     }
+    .header {
+        height: 90vh;
+    }
     .header-content {
         grid-template-columns: repeat(1, 1fr);
 
