@@ -125,25 +125,69 @@ body{
 
 
 /* ▓▒▒▒▒▒▒▒▒▒▒▒ MAIN BONUS STYLE ▒▒▒▒▒▒▒▒▒▒▒▓  */
+.copa-teams {
+    margin-top: 150px;
+    background: #2d78ce23;
+    padding: 80px 0;
+}
+.teams {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top: 50px;
+    text-align: center;
+    color: #0A0826;
+}
+.copa-teams .container > h1 {
+    font-size: 48px;
+    text-align: center;
+    color: #0A0826;
+    font-weight: 700;
+}
+.team-name h1{
+    background: #505050;
+    padding: 10px 0;
+    color: white;
+}
+.team-img img {
+    width: 100%;
+}
 
-
-
-
-
+/* ----------------------- */
+.win-team {
+    margin-top: 80px;
+    text-align: center;
+}
+.win-team  .container > h1 {
+    font-size: 48px;
+    text-align: center;
+    color: #0A0826;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.win-team_img img {
+    width: 30%;
+}
+.win-team_name h1 {
+    color: #0A0826;
+    padding-top: 20px;
+}
 
 
 
 /* ▓▒▒▒▒▒▒▒▒▒▒▒ FOOTER STYLE ▒▒▒▒▒▒▒▒▒▒▒▓  */
 footer {
     margin-top: 165px;
+    background: #000000de;
 }
 
 .footer-logo img{
-    width: 480px;
+    width: 500px;
     display: block;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 30px;
+    padding-top: 40px;
 }
 
 .footer .social {
@@ -161,13 +205,15 @@ footer {
 .footer-copyright {
     text-align: center;
     padding-top: 20px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: whitesmoke;
+    /* margin-bottom: 20px; */
 }
 
 
 /* ▓▒▒▒▒▒▒▒▒▒▒▒ MEDIA QUERY ▒▒▒▒▒▒▒▒▒▒▒▓  */
 
-/* FOR MOBILE */
+/* ▓▓▓▓▓▓ FOR MOBILE ▓▓▓▓▓▓ */
 @media only screen and (max-width: 688px) {
     .container {
         margin-left: 5%;
@@ -203,10 +249,26 @@ footer {
     .footer .social {
         font-size: 15px;
     }
+    .teams {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team-img img {
+        width: 100%;
+    }
+    .copa-teams .container > h1 {
+        font-size: 28px;
 
+    }
+    .win-team_img img {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .win-team  .container > h1 {
+        font-size: 28px;
+    }   
 }
 
-/* FOR TABLET */
+/*▓▓▓▓▓▓▓▓ FOR TABLET ▓▓▓▓▓▓▓*/
 @media only screen and (min-width: 688px) and (max-width: 992px) {
     .container {
         margin-left: 5%;
